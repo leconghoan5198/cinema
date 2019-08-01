@@ -1,0 +1,57 @@
+body{
+  width:960px;
+  margin: 0 auto;
+  background:#545454;
+  font-family:Helvetica, sans-serif;
+}
+p{
+  text-align: center;
+  font-size:2rem;
+  color:#cccccc;
+}
+.trans--grow{
+  -webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+  transition: width 1s  ease-out;
+  width : 0%;
+}
+.grow{
+  width:100%;
+}
+.hr1{
+  margin-left:0;
+}
+.hr2{
+  margin-right:0;
+}
+hr{
+  margin-top: 20px;
+  padding: 2px 0;
+  border: none;
+  background-color: rgb(250, 150, 0);
+  letter-spacing: 5px;
+}
+
+/*Author*/
+footer{
+  position:absolute;
+  bottom:0;
+}
+div{
+  width:960px;
+}
+h1{
+  font-size:1.2rem;
+  text-align: center;
+  color:#39d1b4;
+}
+h1 a{
+  font-weight:300;
+  color:#39d1b4;
+  text-decoration:none;
+}
+
+h1 a:hover{
+  font-weight:300;
+  color:#2d9884;
+  text-decoration:none;
+}

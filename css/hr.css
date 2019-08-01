@@ -1,0 +1,21 @@
+.trans--grow{
+  -webkit-transition: width 1s ease-out; /* For Safari 3.1 to 6.0 */
+  transition: width 1s  ease-out;
+  width : 0%;
+}
+.grow{
+  width:5%;
+}
+.hr1{
+  margin-left:0;
+}
+.hr2{
+  margin-right:0;
+}
+hr{
+  margin-top:20px;
+  padding:0;
+  border: none;
+  background-color:#14CAD9;
+  letter-spacing: 5px;	
+}

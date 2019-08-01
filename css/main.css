@@ -1,0 +1,654 @@
+@charset "utf-8";
+/* CSS Document */
+	/* Style for our header texts
+	* --------------------------------------- */
+.nen1
+{
+	background:url("../images/background 1.png");
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+.nen2
+{
+	background:url("../images/love dead and robot poster.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+}
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+	}
+	.intro p{
+		color: #fff;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+	}
+
+
+	/* Overwriting styles for the navigation dots (to place it where we want)
+	* --------------------------------------- */
+	.fp-slidesNav.bottom{
+		bottom: 25px;
+	}
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color:blue;
+	}
+
+	#section2 h1{
+		color: #333;
+	}
+#section3 { background-color: #000000}
+
+#slide1{
+		background-image: url("../images/GoT.jpg");
+		padding: 0% 0 0 0;
+	background-size: cover;
+	}
+
+
+	#slide2{
+		background-image: url("../images/love dead and robot poster.jpg");
+		padding: 0% 0 0 0;
+		background-size: cover;
+	}
+
+.thanhmenu
+{width: 100%;
+height: auto;
+position: absolute;
+top: 35px;
+z-index: 1000;
+left: -12px;
+}
+
+
+.logo
+{
+	width: 60px;
+	height: 100%;
+    margin-top: -20px; 
+	margin-left: 100px;
+}
+
+.menuleft
+{ width: auto;
+	height: auto;
+	float: left;
+margin-left: 200px;
+margin-top:-55px;
+font-family: "San Francisco Display";
+font-weight: 800;}
+
+.menuright
+{ width: auto;
+	height: auto;
+float: right;
+margin-top:-55px;
+margin-right: -720px;
+	
+font-family: "San Francisco Display";
+font-weight: 800;}
+
+.menusearchbar
+{ width: auto;
+	height: auto;
+	float: right;
+	margin-top:-45px;
+	margin-right: 350px;}
+
+	
+
+
+/*Menu*/
+ul {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0;
+}
+ul li {
+  list-style: none;
+  display: inline-block;
+ padding: 10px;
+margin-top: 10px;
+margin-left: 40px;
+	
+
+}
+ul li:hover  {
+  background: #FFFFFF;
+	border-radius: 8px;
+
+
+}
+
+ul li:hover a  {
+  color: #707070;
+	
+}
+ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+.toggle {
+  width: 100%;
+  padding: 10px 20px;
+  background: #001f44;
+  text-align: right;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 30px;
+  display: none;
+}
+@media (max-width : 1042px ){
+  .toggle {
+    display: block;
+  }
+  ul {
+    width: 100%;
+    display: none;
+  }
+  ul li {
+    display: block;
+    text-align: center;
+  }
+  .active {
+    display: block;
+  }
+  .deactive {
+    display: none;
+  }
+}
+
+/*Home*/
+.textSlider1
+{height: 120px;
+width: 300px;
+font-family:'San Francisco Display';
+font-weight: 700;
+color: #FFFFFF;
+font-size: 51px;
+text-align: left;
+margin-top: 150px;
+margin-left: 180px;
+-webkit-animation: text-shadow-drop-right 1s ease-in-out both;
+	        animation: text-shadow-drop-right 1s ease-in-out both;}
+
+@-webkit-keyframes text-shadow-drop-right {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 6px 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+@keyframes text-shadow-drop-right {
+  0% {
+    text-shadow: 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    text-shadow: 6px 0 18px rgba(0, 0, 0, 0.35);
+  }
+}
+
+
+
+.textNoidung1
+{height: 80px;
+width: 320px;
+font-family: "San Francisco Display";
+font-weight: 400;
+font-size: 24px;
+margin-left: 180px;
+margin-top: 40px;
+color: #FFFFFF;
+text-align: left;}
+
+.textTrailer1
+{height: 80px;
+width: 280px;
+font-family: "San Francisco Display";
+font-weight: 400;
+font-size: 24px;
+margin-left: 180px;
+margin-top: 40px;
+color:#14CAD9;
+text-align: left;
+text-decoration: underline;}
+
+a {color: #14CAD9;
+	text-decoration: underline;}
+
+
+
+/*Office box*/
+
+.OBTitle1
+{height: 200px;
+width: 600px;
+top: 100px;
+left: 150px;
+font-size: 70px;
+font-weight: 500;
+color:#FFFFFF;
+position: absolute;
+font-family: "San Francisco Display";
+z-index: 2}
+
+
+.OBLineText1
+{height: 50px;
+width: 1000px;
+	margin-top: 30px;
+	top: 50px;
+	left: -250px;
+color:#FFFFFF;
+position: relative;
+font-family: "San Francisco Display";
+z-index: 2;
+}
+
+
+.OBText1
+{ height: 50px;
+width: 400px;
+font-size: 25px;
+font-weight: 300;
+margin-top:-20px;
+color:#FFFFFF;
+position: absolute;
+font-family: "San Francisco Display";
+z-index: 2}
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,500);
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+body {
+  color: #444;
+  font-family: 'Roboto', sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+}
+
+.slider {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider__nav {
+  width: 12px;
+  height: 12px;
+  margin: 2rem 12px;
+  border-radius: 100%;
+  z-index: 10;
+  outline: 6px solid #ccc;
+  outline-offset: -6px;
+  box-shadow: 0 0 0 0 #14CAD9, 0 0 0 0  #14CAD9;
+  cursor: pointer;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+}
+.slider__nav:checked {
+  -webkit-animation: check 0.4s linear forwards;
+          animation: check 0.4s linear forwards;
+}
+.slider__nav:checked:nth-of-type(1) ~ .slider__inner {
+  left: 0%;
+}
+.slider__nav:checked:nth-of-type(2) ~ .slider__inner {
+  left: -100%;
+}
+.slider__nav:checked:nth-of-type(3) ~ .slider__inner {
+  left: -200%;
+}
+.slider__nav:checked:nth-of-type(4) ~ .slider__inner {
+  left: -300%;
+}
+.slider__inner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 400%;
+  height: 100%;
+  -webkit-transition: left 0.4s;
+  transition: left 0.4s;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: row nowrap;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+}
+.slider__contents {
+  height: 100%;
+ 
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  -webkit-flex-flow: column nowrap;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.slider__image {
+  font-size: 2.7rem;
+      color: #2196F3;
+}
+.slider__caption {
+top: 50px;
+height: 300px;
+width: 800px;
+ font-size: 70px;
+font-weight: 500;
+color:#FFFFFF;
+position: absolute;
+font-family: "San Francisco Display";
+	z-index: 20;
+}
+.slider__txt {
+  color: #999;
+  margin-bottom: 3rem;
+  max-width: 300px;
+}
+
+@-webkit-keyframes check {
+  50% {
+    outline-color:  #14CAD9;
+    box-shadow: 0 0 0 12px  #14CAD9, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color:  #14CAD9;
+    box-shadow: 0 0 0 0  #14CAD9 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color:  #14CAD9;
+    box-shadow: 0 0 0 12px  #14CAD9, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color:  #14CAD9;
+    box-shadow: 0 0 0 0  #14CAD9, 0 0 0 0 rgba(51, 51, 51, 0);
+  }
+}
+
+/*hr*/
+.linehr
+{width: 1366px;
+height: 5px;
+margin-top: -50px;}
+
+/*REVIEW*/
+.TextReview
+{width: 200px;
+height: 200px;
+font-family: "San Francisco Display";
+color: #FFFFFF;
+font-size: 40px;
+font-weight: 500;
+transform: rotate(360deg);
+margin-top: -360px;
+margin-left: 10px;}
+
+.images1
+{width: 480px;
+height: 695px;
+position: absolute;
+top:0px;
+left:200px;
+}
+
+.images2
+{width: 479,93px;	
+height: 319,62px;
+position: relative;
+right: -350px;
+top:-50px;}
+
+.images3
+{width: 479,43px;
+height: 319.62px;
+position: relative;
+right: -350px;
+top:50px;}
+
+
+/*gallery-wrap*/
+.gallery-wrap 
+{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.6s ease;
+
+}
+
+.item-1:hover {
+    background-image: url("../images/hellboy_ori_2.jpg");
+    flex: 15;
+}
+
+
+.item-1:hover .tenfilm
+{
+   display : block;
+ }
+ .item-1:hover .coverit3
+ {
+   display : none;
+ }
+
+.item-2:hover {
+	background-image: url("../images/john_wick_ori_2.jpg");
+    flex: 15;
+}
+
+.item-2:hover .tenfilm
+{
+   display : block;
+ }
+ .item-2:hover .coverit3
+ {
+   display : none;
+ }
+
+.item-3 
+{
+  width: 25%;
+  height: 100%;
+  background-image: url(" ../images/SW_edit.jpg");
+}
+
+
+
+.item-3:hover {
+	background-image: url(" ../images/SW_Ori_1.jpg");
+    flex: 15;
+}
+
+ .item-3:hover .tenfilm
+{
+   display : block;
+ }
+ .item-3:hover .coverit3
+{
+   display : none;
+ }
+
+
+ .item-4:hover {
+    background-image: url(" ../images/joker_ori.jpg");
+    flex: 15;
+}
+
+ .item-4:hover .tenfilm
+{
+   display : block;
+ }
+ .item-4:hover .coverit3
+{
+   display : none;
+ }
+
+
+
+.so2
+{
+	width: 1px;
+	height: 60px;
+	font-size: 12px;	
+	margin-left: 10%;
+	margin-top: 20px;
+	font-weight: 800; 
+	color: #FFFFFF;
+	writing-mode: vertical-rl;
+	transform: rotate(180deg);
+    font-family: Helvetica;
+}
+.oxanh
+{
+	width: 13px;
+	height: 5px;
+	background-color: #14CAD9;
+	margin-left: 10%;
+	margin-top: 10px;
+}
+
+.stt
+{
+	width: 51px;
+	height: 37px;
+	margin-left: 7%;
+	margin-top: 500px;
+	font-size: 30px;
+	color: white; 
+	
+	
+}
+
+
+
+
+.tenfilm 
+{
+	width: 200px; 
+	height: 30px;
+	font-size: 30px;	
+	margin-left: 30px;
+	margin-top: 100px;
+    display: none;
+	color: #FFFFFF;
+}
+
+
+.coverit3
+{
+	width: 100%;
+	height: 100%;
+}
+
+
+.item-1 
+{
+  width: 25%;
+  height: 100%;
+ 
+  background-image: url("../images/hellboy_edit.jpg");
+}
+
+
+.item-2 
+{
+  width: 25%;
+  height: 100%;
+
+  background-image: url(" ../images/john_wick__12 copy.jpg");
+  
+}
+
+
+.item-4 
+{
+  width: 25%;
+  height: 100%;
+ 
+  background-image: url(" ../images/Joker_edit.jpg");
+}
+
+
+.social 
+{
+  position: absolute;
+  right: 35px;
+  bottom: 0;
+}
+
+.social img {
+  display: block;
+  width: 32px;
+}
+
+.chu
+{
+	width: 342px;
+	height: 768px;
+}
+
+
